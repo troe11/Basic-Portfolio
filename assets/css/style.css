@@ -1,0 +1,59 @@
+div {
+    width: 960px;
+    background-color: grey;
+ 
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+
+}
+
+li {
+	padding: 2% 2%;
+	margin-right: 10px;
+}
+
+.links {
+	float: right;
+	border-right: thin solid grey;
+	border-width: 1px;
+}
+
+.me {
+	background: teal;
+	width: 33%;
+	color: white;
+	text-align: center;
+	padding: 2% 0%;
+	font-size: 32px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+}
+
+.about {
+	width: 650px;
+	height: 100%;
+	float: left;
+	border: solid black;
+}
+
+.connect {
+	width: 270px;
+	height: 25%;
+	float: right;
+	border: solid black;
+
+}
+
+.content {
+	margin-top: 30px;
+	width: 960px;
+	height: 960px;
+}
