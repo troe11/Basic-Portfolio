@@ -3,12 +3,59 @@ body {
 	margin: 0 ;
 }
 
+form {
+	float: left;
+	padding: 0 0 5% 5%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
 .header {
 	background: #ffffff;
 	width: 100%;
 	border: solid #dddddd;
 	margin: 0;
+}
 
+
+.baseball {
+	width: 33%;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 100px;
+	text-align: center;
+	background-image: url(../images/baseball.jpeg);
+	background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.baseball p {
+	background: #4aaaa5;
+	width:100%;
+	height: 30px;
+	color: white;
+}
+
+input[type=submit] {
+    width: 100px;
+    height:40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    margin-top: 20px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	height: 10%;
+	text-align: center;
+	padding: 15px 0;
+    border-top: 5px solid #4aaaa5;
+	color: #777777;
 }
 
 ul {
@@ -53,12 +100,13 @@ a {
 	float: left;
 	border: solid #dddddd;
 	background: #ffffff;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
+	margin-left: 20px;
 }
 
 .connect {
 	width: 270px;
-	height: 25%;
+	height: 175px;
 	float: right;
 	border: solid #dddddd;
 	background: #ffffff;
@@ -76,13 +124,20 @@ a {
 	float: left;
 	border-bottom: thin solid grey;
 	border-width: 1px;
-	font-size: 24px;
 	margin-left: 20px;
 	padding-bottom: 5px;
-	width:90%;
+	width:85%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.ab {
+	font-size: 32px;
+}
+
+.social {
+	font-size: 24px;
+	text-align: center;
+}
 #luke {
 	max-width: 300px;
 	max-height: 300px;
@@ -94,5 +149,15 @@ a {
 	margin: 0 5% 2% 5%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 1.2em;
+}
+
+.icon-overview {
+	padding-left: 5%;
+}
+
+.icons {
+	max-height: 75px;
+	max-width: 75px;
+
 }
 
